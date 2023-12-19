@@ -51,7 +51,7 @@ class BinarySearchTree {
     if (currentNode == null) {
       return;
     }
-    console.log(currentNode.val);
+    // console.log(currentNode.val);
     this.preOrderTraversal(currentNode.left);
     this.preOrderTraversal(currentNode.right);
   }
